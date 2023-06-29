@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.timeline {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 700px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.input-form {
+    width: 79.2%;
+}
+
+.inp {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.list {
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.element {
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.btn {
+    border-radius: 100%;
+}
+
+.elem-time {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.elem-coords {
+    margin-top: 15px;
+}
+
+.elem-text {
+    word-break: break-all;
+    max-width: 500px;
+}
+
+.video-div {
+    max-width: 450px;
+}
+
+.modals {
+    position: absolute;
+    width: 700px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.modal-inner {
+    margin: 15px;
+}
+
+.modal-info {
+    margin-top: 15px;
+}
+
+.modal-input-coords {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.btn-cancel {
+    margin-left: 80%;
+    margin-top: 10px;
+}
+
+.btn-ok {
+    margin-top: 10px;
+}
